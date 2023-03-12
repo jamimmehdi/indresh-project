@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+.container {
+    background-color: #f8fafb;
+    width: 100%;
+    height:100vh;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    justify-content: space-between;
+    box-shadow: 0px 8px 24px 0px rgba(140, 149, 159, 0.2);
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.menu-ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.menu-item {
+    font-weight: 700;
+    padding: 7px 10px;
+    border-radius: 50px;
+    transition: 0.2s ease-in;
+}
+
+.menu-item:hover {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+.apply-now-btn {
+    font-weight: 700;
+    padding: 10px 13px;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+    border: 1px solid black;
+    background-color: white;
+    font-weight: 700;
+}
+
+.apply-now-btn:hover {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-left {
+    width: 700px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.banner-header {
+    font-size: 60px;
+    line-height: 1.4;
+}
+
+.banner-body {
+    color: #303031;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+.banner-right {
+    display: flex;
+    padding: 2rem;
+    width: 800px;
+}
+.main-image {
+    width: 100%;
+    border: 20px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+    box-shadow: 0px 8px 24px 0px rgba(140, 149, 159, 0.2);
+}
+
+.main-image > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.subscribe {
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    display: flex;
+    column-gap: 0.5rem;
+    align-items: center;
+    margin-top: 1rem;
+    box-shadow: 0px 8px 24px 0px rgba(140, 149, 159, 0.2);
+}
+
+.subscribe > input {
+    height: 2rem;
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.subscribe-btn {
+    padding: 15px 12px;
+    min-width: 150px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ff5f64;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.fa.fa-envelope {
+    color: transparent;
+    font-size: 2rem;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #d3d4d6;
+}
+
