@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LPU - Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="logo">
+                <span class="logo-text">INDUVERSITY</span>
+            </div>
+            <ul class="menu-ul">
+                <li class="menu-item"><a class="link" href="./index.html">Home</a></li>
+                <li class="menu-item"><a class="link" href="./event.html">Event</a></li>
+                <li class="menu-item"><a class="link" href="./contact-us.html">Contact Us</a></li>
+                <button class="apply-now-btn"><a class="link" href="./apply-now.html">Apply Now</a></button>
+            </ul>
+        </div>
+        <div class="banner" style="display: flex; height: 100%; align-items: center;">
+            <form id="apply-now">      
+                <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+                <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                <input name="phone" type="tel" class="feedback-input" placeholder="Phone" />
+                <select name="course" class="feedback-input" id="cars">
+                    <option value="BCA">BCA</option>
+                    <option value="MCA">MCA</option>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="M.Tech">M.Tech</option>
+                </select>
+                <textarea name="address" class="feedback-input" placeholder="Address"></textarea>
+                <input type="submit" class="subscribe-btn" value="SUBMIT"/>
+              </form>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

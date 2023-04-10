@@ -15,12 +15,10 @@
                 <span class="logo-text">INDUVERSITY</span>
             </div>
             <ul class="menu-ul">
-                <li class="menu-item">Home</li>
-                <li class="menu-item">Event</li>
-                <li class="menu-item">Brochure</li>
-                <li class="menu-item">Mailing List</li>
-                <li class="menu-item">Contact Us</li>
-                <button class="apply-now-btn">Apply Now</button>
+                <li class="menu-item active"><a id="link" class="link" href="./index.html">Home</a></li>
+                <li class="menu-item"><a id="link" class="link" href="./event.html">Event</a></li>
+                <li class="menu-item"><a id="link" class="link" href="./contact-us.html">Contact Us</a></li>
+                <button class="apply-now-btn"><a class="link" href="./apply-now.html">Apply Now</a></button>
             </ul>
         </div>
         <div class="banner">
@@ -31,8 +29,10 @@
                     <span class="icon">
                         <i class="fa fa-envelope"></i>
                     </span>
-                    <input type="email" placeholder="Enter your email">
-                    <button class="subscribe-btn">Get Brochure</button>
+                    <form class="form-brochure" id="borchure">
+                        <input  type="email" placeholder="Enter your email" name="email">
+                    <button type="submit" id="get-brochure" class="subscribe-btn">Get Brochure</button>
+                    </form>
                 </div>
             </div>
             <div class="banner-right">
@@ -42,5 +42,7 @@
             </div>
         </div>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
